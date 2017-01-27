@@ -29,9 +29,6 @@ int main(int argc, char const *argv[])
 {
 	int arr[] = {2, 3, 5, 1, 7, 4, 3};
 	sort(arr, 0, 6);
-	for (int i = 0; i < 7; ++i)
-	{
-		printf("%d\n", arr[i]);
-	}
+	for (int i = 0; i < 7; ++i) printf("%d\n", arr[i]);
 	return 0;
 }
